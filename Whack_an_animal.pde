@@ -75,16 +75,16 @@ void draw () {//this method runs the recurring events in the game over and over 
     text ("WELCOME TO WHACK-AN-ANIMAL ", 20, 70, 650  );//welcome text 1
     textSize(30);
     fill(255, 0, 0);
-    text ("To Begin: Press mouse twice", 85, 295, 650  );//welcome text 2
+    text ("To Begin: Press mouse twice", 85, 275, 650  );//welcome text 2
     fill(240);
-    text ("INSTRUCTIONS:", 160, 250, 650  );//instructions
+    text ("INSTRUCTIONS:", 160, 200, 650  );//instructions
     textSize(23);
     text ("Hit the bunny as it appears.", 100, 350, 650  );//instruction
     text ("The scorce will increase by one per hit.", 100, 390, 650  );//instruction
-    text ("This is a two player game, which means:", 100, 445, 650  );//instruction
-    text ("You & your partner get  30:00 Timer-Counts each.", 70, 485, 650  );//instruction
+    text ("This is a two player game, which means:", 100, 435, 650  );//instruction
+    text ("You & your partner get  30:00 Timer-Counts each.", 70, 495, 650  );//instruction
     text ("Yor turn ends when the timer reads 00:00.", 70, 520, 650  );//instruction
-    text ("After 60:00 Timer-Counts , a winner emerges!", 70, 560, 650  );//instruction
+    text ("After 60:00 Timer-Counts , a winner emerges!", 70, 545, 650  );//instruction
     fill(  #FFFF33);
     textSize(35);//new text size
     fill(240);
