@@ -49,7 +49,7 @@
    
     
      if (mouseClicked <=0){//immediately you click play, mouse press is at 0
-      background (  #8F00FF,0.2);//set back color and read welcome text
+      background (  #8F00FF,0.2);//set background  color and read welcome text
        fill(0);//make the text color black
      textFont(font1);
      textAlign(LEFT);
