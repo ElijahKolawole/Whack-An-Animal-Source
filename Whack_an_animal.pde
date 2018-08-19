@@ -3,7 +3,7 @@
     //YOU HAVE SIXTY SECONDS TO PLAY , YOU CAN PLAY AS MANY TIMES AS YOU WANT: REMEMBER TO SWAP WITH YOUR PARTNER(S) AND SEE WHO GETS MOST HITS. LETS BEGIN....
     /**************** Declare Variables ************************************************/
     //This is the variable to generate the specific font we want for the displayed texts in this game
-    boolean displayTimer; int seconds; int minutes;Boolean randomlyCreateBunnies; Boolean drawBunny; Boolean scoreBunny; int start; PFont textFont; float randomFloat ; int randomInteger; //this is the variable for the timer
+    boolean displayTimer; int seconds; int minutes;Boolean randomlyCreateBunnies; Boolean drawBunny; Boolean scoreBunny; int start; PFont textFont; PFont font1; float randomFloat ; int randomInteger; //this is the variable for the timer
     int startAtProgramBegin;int mouseClicked;
     int score;//this counts the score, adding and subtracting as you hit or miss the bunny
     PImage background, hammer, goodBunny;//variable names for images used
@@ -42,6 +42,7 @@
     goodBunny.resize(85, 85);//resize the bunny image to specified width and heigth
     hammer = loadImage("hammer.png");//stores an hammer image into hammer variable
     background.resize(594, 842);//resizes the background image
+    font1 = loadFont("AgencyFB-Bold-48.vlw");
     }
     /**************** draw() Function *****************/
     void draw (){//this method runs the recurring events in the game over and over again. 
@@ -50,22 +51,22 @@
      if (mouseClicked <=0){//immediately you click play, mouse press is at 0
       background (  #8F00FF,0.2);//set back color and read welcome text
        fill(0);//make the text color black
-     textFont(textFont);
+     textFont(font1);
      textAlign(LEFT);
-      textSize(28);//text size
-      text ("WELCOME TO WHACK-AN-ANIMAL ", 45, 90, 650  );//welcome text 1
+      textSize(50);//text size
+      text ("WELCOME TO WHACK-AN-ANIMAL ", 30, 90, 650  );//welcome text 1
       textSize(30);
-      text ("To Begin: Press mouse twice" , 67, 150, 650  );//welcome text 2
+      fill(255, 0, 0);
+      text ("To Begin: Press mouse twice" , 70, 280, 650  );//welcome text 2
       fill(240);
       text ("INSTRUCTIONS:" ,160, 250, 650  );//instructions
       textSize(23);
-      text ("Your goal is to hit the bunny at is appears on " ,60, 300, 650  );//instruction
-      text ("on the screen. Your score increases whenever " ,60, 340, 650  );//instruction
-      text ("you hit the bunny at the exact time it appears." ,60, 380, 650  );//instruction
-      text ("Your score remains the same if otherwise." ,60, 420, 650  );//instruction
-      text ("You & your partner get  30:00 Timer-Counts each." ,60, 460, 650  );//instruction
-      text ("Yor turn ends when the timer reads 00:00." ,60, 500, 650  );//instruction
-      text ("After 60:00 Timer-Counts , a winner emerges" ,60, 540, 650  );//instruction
+      text ("Hit the bunny as it appears.",60, 310, 650  );//instruction
+      text ("The scorce will increase by one per hit",60, 350, 650  );//instruction
+      text ("This is a two player game, which means:",60, 390, 650  );//instruction
+      text ("You & your partner get  30:00 Timer-Counts each.",60, 475, 650  );//instruction
+      text ("Yor turn ends when the timer reads 00:00.",60, 510, 650  );//instruction
+      text ("After 60:00 Timer-Counts , a winner emerges!" ,60, 550, 650  );//instruction
       fill(  #FFFF33);
       textSize(35);//new text size
       fill(240);
