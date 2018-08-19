@@ -69,9 +69,10 @@ void draw () {//this method runs the recurring events in the game over and over 
     textFont(font1);
     textAlign(LEFT);
     textSize(50);//text size
-    stroke(45, 67, 175, 200);
+    stroke(53, 107, 219, 200);
     fill(164, 114, 174);
     rect(50, 100, 425, 550, 25);
+    strokeWeight(4);  // Thicker
     text ("WELCOME TO WHACK-AN-ANIMAL ", 20, 70, 650  );//welcome text 1
     textSize(30);
     fill(255, 0, 0);
