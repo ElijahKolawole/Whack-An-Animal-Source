@@ -1,97 +1,110 @@
 
-    //WELCOME : THE GOAL OF THE GAME IS TO HIT THE BUNNY WITH THE HAMMER RIGHT AT THE POINT IT COMES ON SCREEN
-    //THE PROGRAM RANDOMLY GENERATES THE LOCATION OF YOUR BUNNY FOR YOU, AND YOU HAVE HIT IT RIGHT THEN TO GET A SCORE, YOU LOSE A POINT OTHERWISE
-    //YOU HAVE SIXTY SECONDS TO PLAY , YOU CAN PLAY AS MANY TIMES AS YOU WANT: REMEMBER TO SWAP WITH YOUR PARTNER(S) AND SEE WHO GETS MOST HITS. LETS BEGIN....
-    /**************** Declare Variables ************************************************/
-    //This is the variable to generate the specific font we want for the displayed texts in this game
-    boolean displayTimer; int seconds; int minutes;Boolean randomlyCreateBunnies; Boolean drawBunny; Boolean scoreBunny; int start; PFont textFont; PFont font1; float randomFloat ; int randomInteger; //this is the variable for the timer
-    int startAtProgramBegin;int mouseClicked;
-    int score;//this counts the score, adding and subtracting as you hit or miss the bunny
-    PImage background, hammer, goodBunny;//variable names for images used
-    /***************Generate six hole objects on the console****************************/
-    //This section created six hole onject at various locations from the Hole class--The goal here is to specify the specific location we want the hole to appear.
-    //For instance 100,100,60.60 means  create hole x(100) , y(100), width(60), and height(60) and so on...
-    Holes hole1a = new Holes (100, 550, 60,60);//hole1
-    Holes hole1b= new Holes (300, 550, 60,60);//hole2
-    Holes hole1c = new Holes (500, 550, 60,60);//hole3
-    Holes hole2a = new Holes (100, 750, 60,60);//hole4
-    Holes hole2b= new Holes (300, 750, 60,60);//hole5
-    Holes hole2c = new Holes (500, 750, 60,60);//hole6
-    //=================================================//BUNNY OBJECTS
-    Bunny showText = new Bunny();//this bunny object is used to display the text at the beginning of the game
-  /**************** Setup() Function *****************/
-    void setup(){ //This is the setUp method that is ran only once in the game to initiate every other processes in the draw method
-    seconds =0; minutes =33;randomlyCreateBunnies = false; textFont = createFont("data.Consolas-48.vlw" , 48); //our new font to write text 
-    //drawBunny = false;
-    scoreBunny = false;
-    score = 0; //initial value of score
-    ArrayList holeArray =  new ArrayList<Holes>(); //This arrayList stores the six hole objects, so we can create the six circles from the same (1) Hole object instead of creating six different circles
-    holeArray.add(hole1a);//adds hole1 to the ArrayList, name holeArray
-    holeArray.add(hole1b);//adds hole2 to the ArrayList
-    holeArray.add(hole1c);//adds hole3 to the ArrayList
-    holeArray.add(hole2a);//adds hole4 to the ArrayList
-    holeArray.add(hole2b);//adds hole5 to the ArrayList
-    holeArray.add(hole1c);//adds hole6 to the ArrayList
-    start=3;
-    mouseClicked =0;//initial value of mouseClicked
-  
-    size (594, 842);//The width and heigth of the game window
-   
-    //frameRate(250);//the rate/speed with which the images are displayed when the game is run.
-    background =  loadImage ("background.png");//stores the background  image into background variable
-    goodBunny = loadImage("goodBunny.png");//stores a bunny image into the goodBunny variable
-    goodBunny.resize(85, 85);//resize the bunny image to specified width and heigth
-    hammer = loadImage("hammer.png");//stores an hammer image into hammer variable
-    background.resize(594, 842);//resizes the background image
-    font1 = loadFont("AgencyFB-Bold-48.vlw");
-    }
-    /**************** draw() Function *****************/
-    void draw (){//this method runs the recurring events in the game over and over again. 
-   
-    
-     if (mouseClicked <=0){//immediately you click play, mouse press is at 0
-      background (  #8F00FF,0.2);//set back color and read welcome text
-       fill(0);//make the text color black
-     textFont(font1);
-     textAlign(LEFT);
-      textSize(50);//text size
-      text ("WELCOME TO WHACK-AN-ANIMAL ", 30, 90, 650  );//welcome text 1
-      textSize(30);
-      fill(255, 0, 0);
-      text ("To Begin: Press mouse twice" , 70, 280, 650  );//welcome text 2
-      fill(240);
-      text ("INSTRUCTIONS:" ,160, 250, 650  );//instructions
-      textSize(23);
-      text ("Hit the bunny as it appears.",60, 310, 650  );//instruction
-      text ("The scorce will increase by one per hit",60, 350, 650  );//instruction
-      text ("This is a two player game, which means:",60, 390, 650  );//instruction
-      text ("You & your partner get  30:00 Timer-Counts each.",60, 475, 650  );//instruction
-      text ("Yor turn ends when the timer reads 00:00.",60, 510, 650  );//instruction
-      text ("After 60:00 Timer-Counts , a winner emerges!" ,60, 550, 650  );//instruction
-      fill(  #FFFF33);
-      textSize(35);//new text size
-      fill(240);
-      text ("HAVE FUN!!!" ,180, 660, 650  );//last text to display before play
-    }
-     else if (mouseClicked > 0){
-     image (background, 0,0);//new  background image
-     background.resize(594, 842);//resizes the new background to fit window
-     hole1a.changeColor();//the following lines creates the holes for the bunny object to placed at and changes the color of the holes as well.
-     hole1a.create();//this is done by calling the create() and the changeColor method from the Hole class.
-     hole1b.changeColor();
-     hole1b.create();
-     hole1c.changeColor();
-     hole1c.create();
-     hole2a.changeColor();
-     hole2a.create();
-     hole2b.changeColor();
-     hole2b.create();
-     hole2c.changeColor();
-     hole2c.create();
-     ellipseMode(RADIUS);//this control the dimensions of the hole created 
-     textFont(textFont);
-      textSize(20);    //text size 
-      fill(20);//text color
+//WELCOME : THE GOAL OF THE GAME IS TO HIT THE BUNNY WITH THE HAMMER RIGHT AT THE POINT IT COMES ON SCREEN
+//THE PROGRAM RANDOMLY GENERATES THE LOCATION OF YOUR BUNNY FOR YOU, AND YOU HAVE HIT IT RIGHT THEN TO GET A SCORE, YOU LOSE A POINT OTHERWISE
+//YOU HAVE SIXTY SECONDS TO PLAY , YOU CAN PLAY AS MANY TIMES AS YOU WANT: REMEMBER TO SWAP WITH YOUR PARTNER(S) AND SEE WHO GETS MOST HITS. LETS BEGIN....
+/**************** Declare Variables ************************************************/
+//This is the variable to generate the specific font we want for the displayed texts in this game
+boolean displayTimer; 
+int seconds; 
+int minutes;
+Boolean randomlyCreateBunnies; 
+Boolean drawBunny; 
+Boolean scoreBunny; 
+int start; 
+PFont textFont; 
+PFont font1; 
+float randomFloat ; 
+int randomInteger; //this is the variable for the timer
+int startAtProgramBegin;
+int mouseClicked;
+int score;//this counts the score, adding and subtracting as you hit or miss the bunny
+PImage background, hammer, goodBunny;//variable names for images used
+/***************Generate six hole objects on the console****************************/
+//This section created six hole onject at various locations from the Hole class--The goal here is to specify the specific location we want the hole to appear.
+//For instance 100,100,60.60 means  create hole x(100) , y(100), width(60), and height(60) and so on...
+Holes hole1a = new Holes (100, 550, 60, 60);//hole1
+Holes hole1b= new Holes (300, 550, 60, 60);//hole2
+Holes hole1c = new Holes (500, 550, 60, 60);//hole3
+Holes hole2a = new Holes (100, 750, 60, 60);//hole4
+Holes hole2b= new Holes (300, 750, 60, 60);//hole5
+Holes hole2c = new Holes (500, 750, 60, 60);//hole6
+//=================================================//BUNNY OBJECTS
+Bunny showText = new Bunny();//this bunny object is used to display the text at the beginning of the game
+/**************** Setup() Function *****************/
+void setup() { //This is the setUp method that is ran only once in the game to initiate every other processes in the draw method
+  seconds =0; 
+  minutes =33;
+  randomlyCreateBunnies = false; 
+  textFont = createFont("data.Consolas-48.vlw", 48); //our new font to write text 
+  //drawBunny = false;
+  scoreBunny = false;
+  score = 0; //initial value of score
+  ArrayList holeArray =  new ArrayList<Holes>(); //This arrayList stores the six hole objects, so we can create the six circles from the same (1) Hole object instead of creating six different circles
+  holeArray.add(hole1a);//adds hole1 to the ArrayList, name holeArray
+  holeArray.add(hole1b);//adds hole2 to the ArrayList
+  holeArray.add(hole1c);//adds hole3 to the ArrayList
+  holeArray.add(hole2a);//adds hole4 to the ArrayList
+  holeArray.add(hole2b);//adds hole5 to the ArrayList
+  holeArray.add(hole1c);//adds hole6 to the ArrayList
+  start=3;
+  mouseClicked =0;//initial value of mouseClicked
+
+  size (594, 842);//The width and heigth of the game window
+
+  //frameRate(250);//the rate/speed with which the images are displayed when the game is run.
+  background =  loadImage ("background.png");//stores the background  image into background variable
+  goodBunny = loadImage("goodBunny.png");//stores a bunny image into the goodBunny variable
+  goodBunny.resize(85, 85);//resize the bunny image to specified width and heigth
+  hammer = loadImage("hammer.png");//stores an hammer image into hammer variable
+  background.resize(594, 842);//resizes the background image
+  font1 = loadFont("AgencyFB-Bold-48.vlw");
+}
+/**************** draw() Function *****************/
+void draw () {//this method runs the recurring events in the game over and over again. 
+
+
+  if (mouseClicked <=0) {//immediately you click play, mouse press is at 0
+    background (  #8F00FF, 0.2);//set back color and read welcome text
+    fill(0);//make the text color black
+    textFont(font1);
+    textAlign(LEFT);
+    textSize(50);//text size
+    text ("WELCOME TO WHACK-AN-ANIMAL ", 30, 90, 650  );//welcome text 1
+    textSize(30);
+    fill(255, 0, 0);
+    text ("To Begin: Press mouse twice", 70, 280, 650  );//welcome text 2
+    fill(240);
+    text ("INSTRUCTIONS:", 160, 250, 650  );//instructions
+    textSize(23);
+    text ("Hit the bunny as it appears.", 60, 310, 650  );//instruction
+    text ("The scorce will increase by one per hit", 60, 350, 650  );//instruction
+    text ("This is a two player game, which means:", 60, 390, 650  );//instruction
+    text ("You & your partner get  30:00 Timer-Counts each.", 60, 475, 650  );//instruction
+    text ("Yor turn ends when the timer reads 00:00.", 60, 510, 650  );//instruction
+    text ("After 60:00 Timer-Counts , a winner emerges!", 60, 550, 650  );//instruction
+    fill(  #FFFF33);
+    textSize(35);//new text size
+    fill(240);
+    text ("HAVE FUN!!!", 180, 660, 650  );//last text to display before play
+  } else if (mouseClicked > 0) {
+    image (background, 0, 0);//new  background image
+    background.resize(594, 842);//resizes the new background to fit window
+    hole1a.changeColor();//the following lines creates the holes for the bunny object to placed at and changes the color of the holes as well.
+    hole1a.create();//this is done by calling the create() and the changeColor method from the Hole class.
+    hole1b.changeColor();
+    hole1b.create();
+    hole1c.changeColor();
+    hole1c.create();
+    hole2a.changeColor();
+    hole2a.create();
+    hole2b.changeColor();
+    hole2b.create();
+    hole2c.changeColor();
+    hole2c.create();
+    ellipseMode(RADIUS);//this control the dimensions of the hole created 
+    textFont(textFont);
+    textSize(20);    //text size 
+    fill(20);//text color
     //  text("Timer :  ", 20, 25); //Timer Text In Game         
     text("Score :  ", 270, 25); //Score Text In Game
     // //text(time, 80, 25, 650);//timer integer value countdown
