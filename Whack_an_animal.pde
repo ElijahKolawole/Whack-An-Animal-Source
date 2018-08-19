@@ -109,6 +109,7 @@ void draw () {//this method runs the recurring events in the game over and over 
     textFont(textFont);
     textSize(20);    //text size 
     fill(20);//text color
+
     //  text("Timer :  ", 20, 25); //Timer Text In Game         
     text("Score :  ", 270, 25); //Score Text In Game
     // //text(time, 80, 25, 650);//timer integer value countdown
