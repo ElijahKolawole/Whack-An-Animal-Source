@@ -42,7 +42,7 @@ Special thanks to the following faculty members who helped in directing us in th
 © Adefemi Kolawole, May Kamreen, Austin Lomaxx, Georgia Gwinnett College.
 
 
-[comment]:  Foot notes and links placed here
+
 [processing]: https://processing.org/  "Processing Homepage"
 [here]: https://processing.org/download/  "Processing Download"
 
