@@ -1,6 +1,13 @@
+
+
+
+# Whack-An-Animal : A Desktop Game 
+
+***Version 1.0.0***
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**  
 
 - [Whack-An-Animal : A Desktop Game](#whack-an-animal--a-desktop-game)
   - [Motivation](#motivation)
@@ -11,12 +18,6 @@
   - [License & copyright](#license--copyright)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
-# Whack-An-Animal : A Desktop Game 
-
-
-***Version 1.0.0***
 
 |Loading Game | Game UI      |
 |:-----------:|:----------:  |
