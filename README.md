@@ -18,7 +18,7 @@ In fulfillment of expectation for STEC 4800 : GGC Technology Ambassador Program,
 
 # Technology and tools
 
- * Language : [Processing][].js from MIT Lab. You can download a free version [here][]
+ * Language : [Processing.js][] from MIT Lab. You can download a free version [here][]
 
 ---
 
@@ -43,7 +43,7 @@ Special thanks to the following faculty members who helped in directing us in th
 
 
 
-[processing]: https://processing.org/  "Processing Homepage"
+[processing.js]: https://processing.org/  "Processing Homepage"
 [here]: https://processing.org/download/  "Processing Download"
 
 
