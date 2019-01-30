@@ -3,7 +3,7 @@
 
 # Whack-An-Animal : A Desktop Game 
 
-<p style = "font-weight: bolder;">This is a text</p>
+<p style = "font-weight: bolder; font-size: 50">This is a text</p>
 <section>reasree</section>
 
 ***Version 1.0.0***
