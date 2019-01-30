@@ -13,6 +13,16 @@ A game showcased to high school kids at Goegia Gwinnett College Technology Ambas
 
 [comment]: #---
 
+---
+
+## Code Sample
+		public class Test{
+			public static void main(String [ } args){
+
+			}
+
+		}
+
 ## Acknowledgments
 Special thanks to the following faculty members who helped in directing us in this project.
  *  Dr. Xin XU
@@ -24,15 +34,7 @@ Special thanks to the following faculty members who helped in directing us in th
 
 © Adefemi Kolawole, May Kamreen, Austin Lomaxx, Georgia Gwinnett College.
 
----
 
-## Code Sample
-		public class Test{
-			public static void main(String [ } args){
-
-			}
-
-		}
 
 
 
