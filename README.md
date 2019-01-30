@@ -17,6 +17,8 @@ Special thanks to the following faculty members who helped in directing us in th
 * Dr. Xin XU
 + Dr. Sonal Dekhane
 
+---
+
 ## License & copyright
 
 © Adefemi Kolawole, May Kamreen, Austin Lomaxx, Georgia Gwinnett College.
