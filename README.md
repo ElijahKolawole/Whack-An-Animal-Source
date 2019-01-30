@@ -1,5 +1,7 @@
 # Whack-An-Animal : A Desktop Game
 
+![display][display]
+
 **Version 1.0.0**
 
 Code and document details for whack-an-animal users and interested developers. Suggestions, 
@@ -45,6 +47,8 @@ Special thanks to the following faculty members who helped in directing us in th
 
 [processing.js]: https://processing.org/  "Processing Homepage"
 [here]: https://processing.org/download/  "Processing Download"
+[display]: C:\Users\adefe\Desktop\vad.PNG "Display Image"
+
 
 
 
