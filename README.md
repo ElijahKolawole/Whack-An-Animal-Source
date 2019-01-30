@@ -1,2 +1,5 @@
-# Whack-An-Animal-Source
-A game showcased to high school kids at GGC Technology Ambassador Program S3
+# Whack-An-Animal Game
+
+A game showcased to high school kids at Goegia Gwinnett College Technology Ambassador Program.
+
+# 
