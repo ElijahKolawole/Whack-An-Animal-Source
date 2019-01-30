@@ -1,4 +1,4 @@
-# Whack-An-Animal Game
+# Whack-An-Animal : A Desktop Game
 
 **Version 1.0.0**
 
