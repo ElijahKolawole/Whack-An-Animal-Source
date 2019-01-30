@@ -1,6 +1,7 @@
 # Whack-An-Animal : A Desktop Game
 
 
+![display][]
 
 <img   style="float: right;" src="https://fposgroup.com/wp-content/uploads/2016/10/internet_globe-300x236.jpg" alt="display image" >
 
