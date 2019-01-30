@@ -5,7 +5,7 @@
 Code and document details for whack-an-animal users and interested developers. Suggestions, 
 and recommendations are welcome.
 
-# Motivation
+## Motivation
 Whack an animal (W-A-A) was a team-based school project.
 
 In fulfillment of expectation for STEC 4800 : GGC Technology Ambassador Program, W-A-A was showcased to high school kids at Georgia Gwinnett College Technology S3 Series.
@@ -16,7 +16,7 @@ In fulfillment of expectation for STEC 4800 : GGC Technology Ambassador Program,
 
 [comment]: #---
 
-# Technology and tools
+## Technology and tools
 
  * Language : [Processing.js][] from MIT Lab. You can download a fully free version of processing [here][]
 
