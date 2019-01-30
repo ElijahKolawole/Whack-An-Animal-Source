@@ -1,7 +1,7 @@
 # Whack-An-Animal : A Desktop Game
 
 
-![display][]
+![Display][]
 
 <img   style="float: right;" src="https://fposgroup.com/wp-content/uploads/2016/10/internet_globe-300x236.jpg" alt="display image" >
 
@@ -52,7 +52,9 @@ Special thanks to the following faculty members who helped in directing us in th
 [here]: https://processing.org/download/  "Processing Download"
 [display]: https://fposgroup.com/wp-content/uploads/2016/10/internet_globe-300x236.jpg  "Game Display Image"
 
-
+img[alt=Display]{
+	float: right;
+}
 
 
 
