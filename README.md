@@ -1,4 +1,6 @@
-# Whack-An-Animal : A Desktop Game
+|# Whack-An-Animal : A Desktop Game |
+|:-----------: |
+
 
 ***Version 1.0.0***
 
@@ -27,7 +29,7 @@ In fulfillment of expectation for STEC 4800 : GGC Technology Ambassador Program,
 
 ---
 
-## Code Sample
+## Code Snippet
 		void setup() { //This is the setUp method that is ran only once in the game to  
 		  initiate every other processes in the draw method
 		  seconds =0; 
