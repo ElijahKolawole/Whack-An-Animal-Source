@@ -50,7 +50,7 @@ Special thanks to the following faculty members who helped in directing us in th
 
 [processing.js]: https://processing.org/  "Processing Homepage"
 [here]: https://processing.org/download/  "Processing Download"
-[display]: https://fposgroup.com/wp-content/uploads/2016/10/internet_globe-300x236.jpg  "Game Display Image"
+[display]: https://github.com/ElijahKolawole/Whack_an_animal/blob/master/data/display.PNG  "Game Display Image"
 
 img[alt=Display]{
 	float: right;
