@@ -2,9 +2,9 @@
 
 ***Version 1.0.0***
 
- Loading Game | Game UI 
-:-------------:|:----------:
-![DisplayA][] | ![DisplayB][] 
+|Loading Game | Game UI      |
+|:-----------:|:----------:  |
+|![DisplayA][]| ![DisplayB][]|
 
 
 Code and document details for whack-an-animal users and interested developers. Suggestions, 
