@@ -16,6 +16,10 @@ In fulfillment of expectation for STEC 4800 : GGC Technology Ambassador Program,
 
 [comment]: #---
 
+# Technology and tools
+
+ * Language : [Processing][] .js from MIT Lab. You can download a free version [here][]
+
 ---
 
 ## Code Sample
@@ -36,6 +40,12 @@ Special thanks to the following faculty members who helped in directing us in th
 ## License & copyright
 
 © Adefemi Kolawole, May Kamreen, Austin Lomaxx, Georgia Gwinnett College.
+
+
+[comment]:  Foot notes and links placed here
+[processing]: https://processing.org/  "Processing Homepage"
+[here]: https://processing.org/download/  "Processing Download"
+
 
 
 
