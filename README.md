@@ -1,9 +1,7 @@
 
 
-|             |
-|:-----------: |
-|# Whack-An-Animal : A Desktop Game |
-
+<p style = "font-weight: bolder;">This is a text</p>
+# Whack-An-Animal : A Desktop Game 
 
 ***Version 1.0.0***
 
