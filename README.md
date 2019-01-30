@@ -2,7 +2,7 @@
 
 
 
-<img src="https://fposgroup.com/wp-content/uploads/2016/10/internet_globe-300x236.jpg" alt="display image"  style="margin-left: auto; margin-right: auto;" >
+<img   style="margin-left: auto; margin-right: auto;" src="https://fposgroup.com/wp-content/uploads/2016/10/internet_globe-300x236.jpg" alt="display image" >
 
 **Version 1.0.0**
 
