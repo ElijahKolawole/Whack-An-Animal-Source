@@ -13,7 +13,7 @@ Code and document details for whack-an-animal users and interested developers. S
 and recommendations are welcome.
 
 ## Motivation
-Whack an animal (W-A-A) was a team-based school project.
+Whack an animal (W-A-A) is a light weight team-based school game project.
 
 In fulfillment of expectation for STEC 4800 : GGC Technology Ambassador Program, W-A-A was showcased to high school kids at Georgia Gwinnett College Technology S3 Series.
 
