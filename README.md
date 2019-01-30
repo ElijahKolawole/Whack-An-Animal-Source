@@ -1,18 +1,10 @@
 # Whack-An-Animal : A Desktop Game
 
-***Version 1.0.0**
+***Version 1.0.0***
 
 | Loading Game | Game UI |
 |:-------------:|:----------:|
-|![Display][] | ![Display][] |
-
-
-[comment]: # (![Display][])
-
-
-
-<img   style="float: right;" src="https://fposgroup.com/wp-content/uploads/2016/10/internet_globe-300x236.jpg" alt="display image" >
-
+|![DisplayA][] | ![DisplayB][] |
 
 
 Code and document details for whack-an-animal users and interested developers. Suggestions, 
@@ -31,7 +23,7 @@ In fulfillment of expectation for STEC 4800 : GGC Technology Ambassador Program,
 
 ## Technology and tools
 
- * Language :* [Processing.js][] from MIT Lab. You can download a fully free version of processing [here][]*
+ * Language : *[Processing.js][] from MIT Lab. You can download a fully free version of processing [here][]*
 
 ---
 
@@ -82,11 +74,10 @@ Special thanks to the following faculty members who helped in directing us in th
 
 [processing.js]: https://processing.org/  "Processing Homepage"
 [here]: https://processing.org/download/  "Processing Download"
-[display]: https://github.com/ElijahKolawole/Whack_an_animal/blob/master/data/display.PNG  "Game Display Image"
+[displayA]: https://github.com/ElijahKolawole/Whack_an_animal/blob/master/data/displayA.PNG  "Load Game Image"
+[displayB]: https://github.com/ElijahKolawole/Whack_an_animal/blob/master/data/displayB.PNG  "Game UI Image"
 
-img[alt=Display]{
-	float: right;
-}
+
 
 
 
