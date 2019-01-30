@@ -47,7 +47,7 @@ Special thanks to the following faculty members who helped in directing us in th
 
 [processing.js]: https://processing.org/  "Processing Homepage"
 [here]: https://processing.org/download/  "Processing Download"
-[display]: C:\Users\adefe\Desktop\vad.PNG "Display Image"
+[display]: https://fposgroup.com/wp-content/uploads/2016/10/internet_globe-300x236.jpg  "Game Display Image"
 
 
 
