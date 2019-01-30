@@ -18,7 +18,7 @@ In fulfillment of expectation for STEC 4800 : GGC Technology Ambassador Program,
 
 # Technology and tools
 
- * Language : [Processing][] .js from MIT Lab. You can download a free version [here][]
+ * Language : [Processing][].js from MIT Lab. You can download a free version [here][]
 
 ---
 
