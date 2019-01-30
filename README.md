@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Whack-An-Animal : A Desktop Game](#whack-an-animal--a-desktop-game)
+  - [Motivation](#motivation)
+  - [Contributors](#contributors)
+  - [Technology and tools](#technology-and-tools)
+  - [Code Snippet](#code-snippet)
+  - [Acknowledgments](#acknowledgments)
+  - [License & copyright](#license--copyright)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 # Whack-An-Animal : A Desktop Game 
 
