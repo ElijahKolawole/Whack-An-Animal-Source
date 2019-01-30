@@ -70,7 +70,7 @@ Special thanks to the following faculty members who helped in directing us in th
 
 ## License & copyright
 
-*© Adefemi Kolawole, May Kamreen, Austin Lomaxx* Georgia Gwinnett College.
+*© Adefemi Kolawole, May Kamreen, Austin Lomaxx.* Georgia Gwinnett College.
 
 [comment]: # (the following are footnotes and links)
 
