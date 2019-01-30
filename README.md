@@ -24,6 +24,8 @@ Special thanks to the following faculty members who helped in directing us in th
 
 © Adefemi Kolawole, May Kamreen, Austin Lomaxx, Georgia Gwinnett College.
 
+---
+
 ## Code Sample
 		public class Test{
 			public static void main(String [ } args){
