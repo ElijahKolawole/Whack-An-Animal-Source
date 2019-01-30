@@ -78,7 +78,7 @@ In fulfillment of expectation for STEC 4800 : GGC Technology Ambassador Program,
 
 ## Acknowledgments
 Special thanks to the following faculty members who helped in directing us in this project.
- *  Dr. Xin XU
+ *  Dr. Xin Xu
  *  Dr. Sonal Dekhane
 
 
